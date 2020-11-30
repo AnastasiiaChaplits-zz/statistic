@@ -1,3 +1,4 @@
+import { read } from 'fs';
 import { CsvFileReader } from './CsvFileReader';
 
 const reader = new CsvFileReader('football.csv');
